@@ -1,4 +1,5 @@
 using Castle.DynamicProxy;
+using LoggingAuto.HttpClients;
 using LoggingAuto.Interceptors;
 using LoggingAuto.Middlewares;
 using LoggingAuto.Services;
@@ -23,6 +24,10 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+// builder.Services.AddHttpClient<CustomHttpClient>("GitHubClient.Version9", x => { x.BaseAddress = new Uri(GitHubConstants.ApiBaseUrl); });
+builder.Services.AddHttpClient<CustomHttpClient>(x => { x.BaseAddress = new Uri("Path"); x.Timeout = TimeSpan.FromSeconds(90); });
+builder.Services.AddSingleton<CustomHttpClientFactory>();
 
 builder.Services.AddInterceptedSingleton<IUserService, UserService, LoggingInterceptor>();
 
