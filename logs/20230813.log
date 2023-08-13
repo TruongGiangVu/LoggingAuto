@@ -432,3 +432,15 @@
 2023-08-13 21:13:03 [Information] Arguments:input={"Id":-3,"Name":"giang","Description":""}, a=5, 
 2023-08-13 21:13:03 [Information] int a =5
 2023-08-13 21:13:03 [Information] Method Hentai returned: ({"Id":2,"Name":"giang","Description":""}, 5)
+2023-08-13 21:15:43 [Information] ------Action Home.Index4-------------
+2023-08-13 21:15:43 [Information] NoIOLogging: Yes
+2023-08-13 21:15:43 [Information] Do action 4
+2023-08-13 21:15:43 [Information] Calling method UserService.Hentai
+2023-08-13 21:15:43 [Information] Arguments:input={"Id":-3,"Name":"giang","Description":""}, a=5, 
+2023-08-13 21:15:43 [Information] int a =5
+2023-08-13 21:15:43 [Information] Method UserService.Hentai returned: ({"Id":2,"Name":"giang","Description":""}, 5)
+2023-08-13 21:16:16 [Information] ------Action Home.Index4-------------
+2023-08-13 21:16:16 [Information] NoIOLogging: Yes
+2023-08-13 21:16:16 [Information] Do action 4
+2023-08-13 21:16:16 [Information] Method has NoIOLoggingAttribute
+2023-08-13 21:16:16 [Information] int a =5
