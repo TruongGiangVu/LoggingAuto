@@ -1,0 +1,434 @@
+2023-08-13 13:43:04 [Information] ------Action Home.Index-------------
+2023-08-13 13:43:04 [Information] NoIOLogging: No
+2023-08-13 13:43:04 [Information] Request: GET /Home/index?id=1&name=Giang%20sieu%20nhan
+2023-08-13 13:43:04 [Information] Do action
+2023-08-13 13:43:04 [Information] Response Status: 200
+2023-08-13 13:43:04 [Information] Response Body: {"id":1,"name":"Giang sieu nhan","description":"Description Giang sieu nhan"}
+2023-08-13 13:43:18 [Information] ------Action Home.Index2-------------
+2023-08-13 13:43:18 [Information] NoIOLogging: Yes
+2023-08-13 13:43:18 [Information] Do action 2
+2023-08-13 13:45:15 [Information] ------Action Home.Create-------------
+2023-08-13 13:45:15 [Information] NoIOLogging: No
+2023-08-13 13:45:16 [Information] Request: POST /Home/create
+2023-08-13 13:45:16 [Information] Request Body: {
+    "id": -1,
+    "name" : "fdsfds",
+    "Description" : null
+}
+2023-08-13 13:45:16 [Information] Response Status: 400
+2023-08-13 13:45:16 [Information] Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-e9a7a543ad8524080edc7bcda4f74288-a2d43055bbb26125-00","errors":{"$":["The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. Path: $ | LineNumber: 0 | BytePositionInLine: 0."],"item":["The item field is required."]}
+2023-08-13 13:45:37 [Information] ------Action Home.Create-------------
+2023-08-13 13:45:37 [Information] NoIOLogging: No
+2023-08-13 13:45:37 [Information] Request: POST /Home/create
+2023-08-13 13:45:37 [Information] Request Body: {
+    "id": 0,
+    "name" : "fdsfds",
+    "Description" : null
+}
+2023-08-13 13:45:37 [Information] Response Status: 400
+2023-08-13 13:45:37 [Information] Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-9a536fe5800baeed3794cc54c835045b-4243c5e026a8b011-00","errors":{"$":["The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. Path: $ | LineNumber: 0 | BytePositionInLine: 0."],"item":["The item field is required."]}
+2023-08-13 13:45:51 [Information] ------Action Home.Create-------------
+2023-08-13 13:45:51 [Information] NoIOLogging: No
+2023-08-13 13:45:51 [Information] Request: POST /Home/create
+2023-08-13 13:45:51 [Information] Request Body: {
+    "id": 0,
+    "name" : "fdsfds",
+    "Description" : null
+}
+2023-08-13 13:45:51 [Information] Response Status: 400
+2023-08-13 13:45:51 [Information] Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-3c5db3abf528c63d39940bb7b6dee990-82b5f581e3fa1077-00","errors":{"$":["The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. Path: $ | LineNumber: 0 | BytePositionInLine: 0."],"item":["The item field is required."]}
+2023-08-13 13:49:56 [Information] ------Action Home.Create-------------
+2023-08-13 13:49:56 [Information] NoIOLogging: No
+2023-08-13 13:49:56 [Information] Request: POST /Home/create
+2023-08-13 13:49:56 [Information] Request Body: {
+    "id": 0,
+    "name" : "fdsfds",
+    "description" : null
+}
+2023-08-13 13:49:56 [Information] Response Status: 400
+2023-08-13 13:49:56 [Information] Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-0cbcd9969680c3b116d5ec32a44e55e6-491f99162299d8ad-00","errors":{"$":["The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. Path: $ | LineNumber: 0 | BytePositionInLine: 0."]}
+2023-08-13 13:51:37 [Information] ------Action Home.Create-------------
+2023-08-13 13:51:37 [Information] NoIOLogging: No
+2023-08-13 13:51:37 [Information] Request: POST /Home/create
+2023-08-13 13:51:37 [Information] Request Body: {
+  "id": 1,
+  "name": "giang fsd",
+  "description": "gaing fsdfsdfdf"
+}
+2023-08-13 13:51:37 [Information] Response Status: 400
+2023-08-13 13:51:37 [Information] Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-872cc724186b214cfec4774f6a9d1e30-1e0d1023f551542e-00","errors":{"$":["The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. Path: $ | LineNumber: 0 | BytePositionInLine: 0."]}
+2023-08-13 13:51:58 [Information] ------Action Home.Create-------------
+2023-08-13 13:51:58 [Information] NoIOLogging: No
+2023-08-13 13:51:58 [Information] Request: POST /Home/create
+2023-08-13 13:51:58 [Information] Request Body: {
+  "id": 1,
+  "name": "giang fsd",
+  "description": "gaing fsdfsdfdf"
+}
+2023-08-13 13:51:58 [Information] Response Status: 400
+2023-08-13 13:51:58 [Information] Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-2d5374918ab02ad8073a40a2c183e8eb-b6766515895d7864-00","errors":{"$":["The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. Path: $ | LineNumber: 0 | BytePositionInLine: 0."]}
+2023-08-13 13:52:16 [Information] ------Action Home.Create-------------
+2023-08-13 13:52:16 [Information] NoIOLogging: No
+2023-08-13 13:52:16 [Information] Request: POST /Home/create
+2023-08-13 13:52:16 [Information] Request Body: {
+  "id": 5,
+  "name": "string",
+  "description": "string"
+}
+2023-08-13 13:52:16 [Information] Response Status: 400
+2023-08-13 13:52:16 [Information] Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-fc538010b0aa9c3a8345600047dfa265-ad944c06598e266d-00","errors":{"$":["The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. Path: $ | LineNumber: 0 | BytePositionInLine: 0."]}
+2023-08-13 13:52:44 [Information] Request: GET /
+2023-08-13 13:52:44 [Information] Response Status: 404
+2023-08-13 13:52:44 [Information] Response Body: 
+2023-08-13 13:52:57 [Information] ------Action Home.Create-------------
+2023-08-13 13:52:57 [Information] NoIOLogging: No
+2023-08-13 13:52:57 [Information] Request: POST /Home/create
+2023-08-13 13:52:57 [Information] Request Body: {
+  "id": 1,
+  "name": "giang fsd",
+  "description": "gaing fsdfsdfdf"
+}
+2023-08-13 13:52:57 [Information] Response Status: 400
+2023-08-13 13:52:57 [Information] Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-832a752bbaae967ebf08191a542bc711-758f77c44a3e76ae-00","errors":{"$":["The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. Path: $ | LineNumber: 0 | BytePositionInLine: 0."]}
+2023-08-13 13:53:31 [Information] ------Action Home.Create-------------
+2023-08-13 13:53:31 [Information] NoIOLogging: No
+2023-08-13 13:53:31 [Information] Request: POST /Home/create
+2023-08-13 13:53:31 [Information] Request Body: {
+  "id": 1,
+  "name": "giang fsd",
+  "description": "gaing fsdfsdfdf"
+}
+2023-08-13 13:53:31 [Information] Response Status: 400
+2023-08-13 13:53:31 [Information] Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-44385870068f8a0e2f9c068a596cd74c-0e2e7ab00a060aad-00","errors":{"$":["The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. Path: $ | LineNumber: 0 | BytePositionInLine: 0."],"item":["The item field is required."]}
+2023-08-13 13:55:32 [Information] ------Action Home.Create-------------
+2023-08-13 13:55:32 [Information] NoIOLogging: No
+2023-08-13 13:55:32 [Information] Request: POST /Home/create
+2023-08-13 13:55:32 [Information] Request Body: {
+  "id": 1,
+  "name": "giang fsd",
+  "description": "gaing fsdfsdfdf"
+}
+2023-08-13 13:55:32 [Information] Response Status: 400
+2023-08-13 13:55:32 [Information] Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-51096cb4e604fecb6e556c8ee367888a-39031013ef74a238-00","errors":{"$":["The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. Path: $ | LineNumber: 0 | BytePositionInLine: 0."],"item":["The item field is required."]}
+2023-08-13 13:58:33 [Information] ------Action Home.Create-------------
+2023-08-13 13:58:33 [Information] NoIOLogging: No
+2023-08-13 13:58:33 [Information] Request: POST /Home/create
+2023-08-13 13:58:33 [Information] Request Body: {
+  "id": 1,
+  "name": "giang fsd",
+  "description": "gaing fsdfsdfdf"
+}
+2023-08-13 13:58:33 [Information] Response Status: 400
+2023-08-13 13:58:33 [Information] Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-c1de800505ac9ec30da65755dd638c65-b0fbb4b739085aad-00","errors":{"$":["The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. Path: $ | LineNumber: 0 | BytePositionInLine: 0."],"model":["The model field is required."]}
+2023-08-13 13:58:50 [Information] ------Action Home.Create-------------
+2023-08-13 13:58:50 [Information] NoIOLogging: No
+2023-08-13 13:58:50 [Information] Request: POST /Home
+2023-08-13 13:58:50 [Information] Request Body: {
+  "id": 0,
+  "name": "string",
+  "description": "string"
+}
+2023-08-13 13:58:50 [Information] Response Status: 400
+2023-08-13 13:58:50 [Information] Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-3e20d05a053e561ce55c4923649a77c4-eafa9472c5f5423e-00","errors":{"$":["The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. Path: $ | LineNumber: 0 | BytePositionInLine: 0."],"model":["The model field is required."]}
+2023-08-13 13:59:27 [Information] ------Action Home.Create-------------
+2023-08-13 13:59:27 [Information] NoIOLogging: No
+2023-08-13 13:59:27 [Information] Request: POST /Home/create
+2023-08-13 13:59:27 [Information] Request Body: {
+  "id": 1,
+  "name": "giang fsd",
+  "description": "gaing fsdfsdfdf"
+}
+2023-08-13 13:59:27 [Information] Do action Create
+2023-08-13 14:00:05 [Information] ------Action Home.Create-------------
+2023-08-13 14:00:05 [Information] NoIOLogging: No
+2023-08-13 14:00:05 [Information] Request: POST /Home/create
+2023-08-13 14:00:05 [Information] Request Body: {
+  "id": 1,
+  "name": "giang fsd",
+  "description": "gaing fsdfsdfdf"
+}
+2023-08-13 14:00:05 [Information] Response Status: 400
+2023-08-13 14:00:05 [Information] Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-a5f8e6710c64d4d8e00fa43ee8a4b223-bf19777e4f380f90-00","errors":{"$":["The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. Path: $ | LineNumber: 0 | BytePositionInLine: 0."]}
+2023-08-13 14:00:36 [Information] ------Action Home.Create-------------
+2023-08-13 14:00:36 [Information] NoIOLogging: No
+2023-08-13 14:00:36 [Information] Request: POST /Home/create
+2023-08-13 14:00:36 [Information] Request Body: {
+  "id": 1,
+  "name": "giang fsd",
+  "description": "gaing fsdfsdfdf"
+}
+2023-08-13 14:00:36 [Information] Response Status: 400
+2023-08-13 14:00:36 [Information] Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-8bfff4fb72c62aa3d45a2b23974f1920-6e1be484b3600630-00","errors":{"$":["The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. Path: $ | LineNumber: 0 | BytePositionInLine: 0."]}
+2023-08-13 14:03:09 [Information] ------Action Home.Create-------------
+2023-08-13 14:03:09 [Information] NoIOLogging: No
+2023-08-13 14:03:09 [Information] Request: POST /Home/create
+2023-08-13 14:03:09 [Information] Request Body: {
+  "id": 0,
+  "name": "string",
+  "description": "string"
+}
+2023-08-13 14:03:09 [Information] Response Status: 400
+2023-08-13 14:03:09 [Information] Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-86a34d26e92c4637d2061eb5ac64fdab-ffe0c95a8d37c595-00","errors":{"$":["The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. Path: $ | LineNumber: 0 | BytePositionInLine: 0."]}
+2023-08-13 14:03:24 [Information] ------Action Home.Create-------------
+2023-08-13 14:03:24 [Information] NoIOLogging: No
+2023-08-13 14:03:24 [Information] Request: POST /Home/create
+2023-08-13 14:03:24 [Information] Request Body: {
+  "id": 0,
+  "name": "string",
+  "description": "string"
+}
+2023-08-13 14:03:24 [Information] Response Status: 400
+2023-08-13 14:03:24 [Information] Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-3360950f89166fc6851d73054ba6d3bd-e6b3c4ad40d43973-00","errors":{"$":["The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. Path: $ | LineNumber: 0 | BytePositionInLine: 0."]}
+2023-08-13 14:03:29 [Information] ------Action Home.Create-------------
+2023-08-13 14:03:29 [Information] NoIOLogging: No
+2023-08-13 14:03:29 [Information] Request: POST /Home/create
+2023-08-13 14:03:29 [Information] Request Body: {
+  "id": 0,
+  "name": "string",
+  "description": "string"
+}
+2023-08-13 14:03:29 [Information] Response Status: 400
+2023-08-13 14:03:29 [Information] Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-82f4bf36b70ba68e5f976fcc0167f6ee-8e8a7b3a75e197b4-00","errors":{"$":["The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. Path: $ | LineNumber: 0 | BytePositionInLine: 0."]}
+2023-08-13 14:03:44 [Information] ------Action Home.Create-------------
+2023-08-13 14:03:44 [Information] NoIOLogging: No
+2023-08-13 14:03:44 [Information] Request: POST /Home/create
+2023-08-13 14:03:44 [Information] Request Body: {
+  "Id": 1,
+  "Name": "giang fsd",
+  "Description": "gaing fsdfsdfdf"
+}
+2023-08-13 14:03:44 [Information] Response Status: 400
+2023-08-13 14:03:44 [Information] Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-8a7d326266c2e367c5f395008ccf6448-aa2b5f52796113b4-00","errors":{"$":["The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. Path: $ | LineNumber: 0 | BytePositionInLine: 0."]}
+2023-08-13 14:04:03 [Information] ------Action Home.Create-------------
+2023-08-13 14:04:03 [Information] NoIOLogging: No
+2023-08-13 14:04:03 [Information] Request: POST /Home/create
+2023-08-13 14:04:03 [Information] Request Body: model: {
+  "Id": 1,
+  "Name": "giang fsd",
+  "Description": "gaing fsdfsdfdf"
+}
+2023-08-13 14:04:03 [Information] Response Status: 400
+2023-08-13 14:04:03 [Information] Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-79556a723864a28288baec9f1b3ee3f3-b4a2f887300ef7c9-00","errors":{"$":["The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. Path: $ | LineNumber: 0 | BytePositionInLine: 0."]}
+2023-08-13 14:04:13 [Information] Request: GET /Home/create
+2023-08-13 14:04:13 [Information] Request Body: {
+  "Id": 1,
+  "Name": "giang fsd",
+  "Description": "gaing fsdfsdfdf"
+}
+2023-08-13 14:04:13 [Information] Response Status: 405
+2023-08-13 14:04:13 [Information] Response Body: 
+2023-08-13 14:04:23 [Information] ------Action Home.Create-------------
+2023-08-13 14:04:23 [Information] NoIOLogging: No
+2023-08-13 14:04:23 [Information] Request: POST /Home/create
+2023-08-13 14:04:23 [Information] Request Body: {
+  "Id": 1,
+  "Name": "giang fsd",
+  "Description": "gaing fsdfsdfdf"
+}
+2023-08-13 14:04:23 [Information] Response Status: 400
+2023-08-13 14:04:23 [Information] Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-0cbfef494ced2b564e9844cffa2ca8ba-1998a2a273ed9aed-00","errors":{"$":["The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. Path: $ | LineNumber: 0 | BytePositionInLine: 0."]}
+2023-08-13 14:05:32 [Information] ------Action Home.Create-------------
+2023-08-13 14:05:32 [Information] NoIOLogging: No
+2023-08-13 14:05:32 [Information] Request: POST /Home/create
+2023-08-13 14:05:32 [Information] Request Body: {
+  "Id": 1,
+  "Name": "giang fsd",
+  "Description": "gaing fsdfsdfdf"
+}
+2023-08-13 14:05:32 [Information] Response Status: 400
+2023-08-13 14:05:32 [Information] Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-1adcf5fb7d97dd778aae2a605c0132c7-d53e7e79b7a7be5b-00","errors":{"$":["The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. Path: $ | LineNumber: 0 | BytePositionInLine: 0."]}
+2023-08-13 14:06:22 [Information] ------Action Home.Create-------------
+2023-08-13 14:06:22 [Information] NoIOLogging: No
+2023-08-13 14:06:22 [Information] Request: POST /Home/create
+2023-08-13 14:06:22 [Information] Request Body: {
+  "Id": 1,
+  "Name": "giang fsd",
+  "Description": "gaing fsdfsdfdf"
+}
+2023-08-13 14:06:22 [Information] Response Status: 400
+2023-08-13 14:06:22 [Information] Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-3a46d3bd740f6188a0b9f02cca5596b4-92bf9bf6b933ffff-00","errors":{"$":["The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. Path: $ | LineNumber: 0 | BytePositionInLine: 0."],"model":["The model field is required."]}
+2023-08-13 14:06:30 [Information] ------Action Home.Create-------------
+2023-08-13 14:06:30 [Information] NoIOLogging: No
+2023-08-13 14:06:30 [Information] Request: POST /Home/create
+2023-08-13 14:06:30 [Information] Request Body: {
+  "id": 1,
+  "name": "giang fsd",
+  "description": "gaing fsdfsdfdf"
+}
+2023-08-13 14:06:30 [Information] Response Status: 400
+2023-08-13 14:06:30 [Information] Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-282ff53dbb3eb79fd39056fc6c656722-41706a90e5717eb9-00","errors":{"$":["The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. Path: $ | LineNumber: 0 | BytePositionInLine: 0."],"model":["The model field is required."]}
+2023-08-13 14:07:09 [Information] ------Action Home.Create-------------
+2023-08-13 14:07:09 [Information] NoIOLogging: No
+2023-08-13 14:07:09 [Information] Request: POST /create?Id=74&Name=54&Description=54
+2023-08-13 14:07:09 [Information] Do action Create
+2023-08-13 14:07:09 [Information] Response Status: 200
+2023-08-13 14:07:09 [Information] Response Body: {"id":74,"name":"54","description":"54"}
+2023-08-13 14:07:42 [Information] ------Action Home.Create-------------
+2023-08-13 14:07:42 [Information] NoIOLogging: No
+2023-08-13 14:07:42 [Information] Request: POST /Home/create
+2023-08-13 14:07:42 [Information] Request Body: {
+  "id": 0,
+  "name": "string",
+  "description": "string"
+}
+2023-08-13 14:07:42 [Information] Response Status: 400
+2023-08-13 14:07:42 [Information] Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-4ba93db7af9a0faa827ab38a0d06016b-4819356ea8ed9e08-00","errors":{"$":["The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. Path: $ | LineNumber: 0 | BytePositionInLine: 0."],"model":["The model field is required."]}
+2023-08-13 14:23:47 [Information] ------Action Home.Index-------------
+2023-08-13 14:23:47 [Information] NoIOLogging: No
+2023-08-13 14:23:47 [Information] Request: GET /Home/index?id=1&name=Giang%20sieu%20nhan
+2023-08-13 14:24:32 [Information] ------Action Home.Index-------------
+2023-08-13 14:24:32 [Information] NoIOLogging: No
+2023-08-13 14:24:32 [Information] Request: GET /Home/index?id=1&name=Giang%20sieu%20nhan
+2023-08-13 20:05:52 [Information] ------Action Home.Index-------------
+2023-08-13 20:05:52 [Information] NoIOLogging: No
+2023-08-13 20:05:52 [Information] Request: GET /Home/index?id=1&name=Giang%20sieu%20nhan
+2023-08-13 20:05:52 [Information] Do action
+2023-08-13 20:05:52 [Information] Calling method: Add with arguments: 1, 5
+2023-08-13 20:05:52 [Information] Method Add returned: 6
+2023-08-13 20:05:52 [Information] Response Status: 200
+2023-08-13 20:05:52 [Information] Response Body: {"id":6,"name":"Giang sieu nhan","description":"Description Giang sieu nhan"}
+2023-08-13 20:06:48 [Information] ------Action Home.Index3-------------
+2023-08-13 20:06:48 [Information] NoIOLogging: Yes
+2023-08-13 20:06:48 [Information] Do action 2
+2023-08-13 20:06:48 [Information] Calling method: Add with arguments: 1, 5
+2023-08-13 20:06:48 [Information] Method Add returned: 6
+2023-08-13 20:07:04 [Information] ------Action Home.Index2-------------
+2023-08-13 20:07:04 [Information] NoIOLogging: Yes
+2023-08-13 20:07:04 [Information] Do action 2
+2023-08-13 20:07:04 [Information] Calling method: Subtract with arguments: 1, 5
+2023-08-13 20:07:04 [Information] Method Subtract returned: -4
+2023-08-13 20:07:17 [Information] ------Action Home.Index-------------
+2023-08-13 20:07:17 [Information] NoIOLogging: No
+2023-08-13 20:07:17 [Information] Request: GET /Home/index?id=1&name=Giang%20sieu%20nhan
+2023-08-13 20:07:17 [Information] Do action
+2023-08-13 20:07:17 [Information] Calling method: Add with arguments: 1, 5
+2023-08-13 20:07:17 [Information] Method Add returned: 6
+2023-08-13 20:07:17 [Information] Response Status: 200
+2023-08-13 20:07:17 [Information] Response Body: {"id":6,"name":"Giang sieu nhan","description":"Description Giang sieu nhan"}
+2023-08-13 20:08:57 [Information] ------Action Home.Index-------------
+2023-08-13 20:08:57 [Information] NoIOLogging: No
+2023-08-13 20:08:57 [Information] Request: GET /Home/index?id=1&name=Giang%20sieu%20nhan
+2023-08-13 20:08:57 [Information] Do action
+2023-08-13 20:08:57 [Information] NoIOLoggingAttribute: False
+2023-08-13 20:08:57 [Information] Calling method: Add with arguments: 1, 5
+2023-08-13 20:08:57 [Information] Method Add returned: 6
+2023-08-13 20:08:57 [Information] Response Status: 200
+2023-08-13 20:08:57 [Information] Response Body: {"id":6,"name":"Giang sieu nhan","description":"Description Giang sieu nhan"}
+2023-08-13 20:09:10 [Information] ------Action Home.Index2-------------
+2023-08-13 20:09:10 [Information] NoIOLogging: Yes
+2023-08-13 20:09:10 [Information] Do action 2
+2023-08-13 20:09:10 [Information] NoIOLoggingAttribute: False
+2023-08-13 20:09:10 [Information] Calling method: Subtract with arguments: 1, 5
+2023-08-13 20:09:10 [Information] Method Subtract returned: -4
+2023-08-13 20:12:32 [Information] ------Action Home.Index2-------------
+2023-08-13 20:12:32 [Information] NoIOLogging: Yes
+2023-08-13 20:12:32 [Information] Do action 2
+2023-08-13 20:12:32 [Information] NoIOLoggingAttribute 1: False
+2023-08-13 20:12:32 [Information] Calling method: Subtract with arguments: 1, 5
+2023-08-13 20:12:32 [Information] Method Subtract returned: -4
+2023-08-13 20:12:32 [Information] NoIOLoggingAttribute 2: False
+2023-08-13 20:16:35 [Information] ------Action Home.Index2-------------
+2023-08-13 20:16:35 [Information] NoIOLogging: Yes
+2023-08-13 20:16:35 [Information] Do action 2
+2023-08-13 20:16:35 [Information] NoIOLoggingAttribute : False
+2023-08-13 20:16:35 [Information] Executing with NoIOLoggingAttribute: Subtract
+2023-08-13 20:17:27 [Information] ------Action Home.Index2-------------
+2023-08-13 20:17:27 [Information] NoIOLogging: Yes
+2023-08-13 20:17:27 [Information] Do action 2
+2023-08-13 20:17:27 [Information] NoIOLoggingAttribute 123: False
+2023-08-13 20:17:27 [Information] Executing with NoIOLoggingAttribute: Subtract
+2023-08-13 20:17:38 [Information] ------Action Home.Index-------------
+2023-08-13 20:17:38 [Information] NoIOLogging: No
+2023-08-13 20:17:38 [Information] Request: GET /Home/index?id=1&name=Giang%20sieu%20nhan
+2023-08-13 20:17:38 [Information] Do action
+2023-08-13 20:17:38 [Information] Calling method: Add with arguments: 1, 5
+2023-08-13 20:17:38 [Information] Method Add returned: 6
+2023-08-13 20:17:38 [Information] Response Status: 200
+2023-08-13 20:17:38 [Information] Response Body: {"id":6,"name":"Giang sieu nhan","description":"Description Giang sieu nhan"}
+2023-08-13 20:18:02 [Information] ------Action Home.Index-------------
+2023-08-13 20:18:02 [Information] NoIOLogging: No
+2023-08-13 20:18:02 [Information] Request: GET /Home/index?id=1&name=Giang%20sieu%20nhan
+2023-08-13 20:18:02 [Information] Do action
+2023-08-13 20:18:02 [Information] Calling method: Add with arguments: 1, 5
+2023-08-13 20:18:02 [Information] Method Add returned: 6
+2023-08-13 20:18:02 [Information] Response Status: 200
+2023-08-13 20:18:02 [Information] Response Body: {"id":6,"name":"Giang sieu nhan","description":"Description Giang sieu nhan"}
+2023-08-13 20:18:33 [Information] ------Action Home.Index3-------------
+2023-08-13 20:18:33 [Information] NoIOLogging: Yes
+2023-08-13 20:18:33 [Information] Do action 2
+2023-08-13 20:18:33 [Information] Calling method: Add with arguments: 1, 5
+2023-08-13 20:18:33 [Information] Method Add returned: 6
+2023-08-13 20:19:02 [Information] ------Action Home.Index3-------------
+2023-08-13 20:19:02 [Information] NoIOLogging: Yes
+2023-08-13 20:19:02 [Information] Do action 2
+2023-08-13 20:19:02 [Information] NoIOLoggingAttribute 123: True
+2023-08-13 20:19:02 [Information] Executing with NoIOLoggingAttribute: Subtract
+2023-08-13 20:19:54 [Information] ------Action Home.Index-------------
+2023-08-13 20:19:54 [Information] NoIOLogging: No
+2023-08-13 20:19:54 [Information] Request: GET /Home/index?id=1&name=Giang%20sieu%20nhan
+2023-08-13 20:19:54 [Information] Do action
+2023-08-13 20:19:54 [Information] Calling method: Add with arguments: 1, 5
+2023-08-13 20:19:54 [Information] Method Add returned: 6
+2023-08-13 20:19:54 [Information] Response Status: 200
+2023-08-13 20:19:54 [Information] Response Body: {"id":6,"name":"Giang sieu nhan","description":"Description Giang sieu nhan"}
+2023-08-13 20:35:53 [Information] ------Action Home.Index-------------
+2023-08-13 20:35:53 [Information] NoIOLogging: No
+2023-08-13 20:35:53 [Information] Request: GET /Home/index?id=1&name=Giang%20sieu%20nhan
+2023-08-13 20:35:53 [Information] Do action
+2023-08-13 20:35:53 [Information] Calling method: Add with arguments: 1, 5
+2023-08-13 20:35:53 [Information] Method Add returned: 6
+2023-08-13 20:35:53 [Information] Response Status: 200
+2023-08-13 20:35:53 [Information] Response Body: {"id":6,"name":"Giang sieu nhan","description":"Description Giang sieu nhan"}
+2023-08-13 20:35:57 [Information] ------Action Home.Index2-------------
+2023-08-13 20:35:57 [Information] NoIOLogging: Yes
+2023-08-13 20:35:57 [Information] Do action 2
+2023-08-13 20:35:57 [Information] Method has NoIOLoggingAttribute
+2023-08-13 20:35:59 [Information] ------Action Home.Index3-------------
+2023-08-13 20:35:59 [Information] NoIOLogging: Yes
+2023-08-13 20:35:59 [Information] Do action 2
+2023-08-13 20:35:59 [Information] Method has NoIOLoggingAttribute
+2023-08-13 20:56:31 [Information] ------Action Home.Index4-------------
+2023-08-13 20:56:31 [Information] NoIOLogging: Yes
+2023-08-13 20:56:31 [Information] Do action 4
+2023-08-13 20:56:31 [Information] Calling method: Hentai with arguments: LoggingAuto.Models.Item, 5
+2023-08-13 20:56:31 [Information] int a =5
+2023-08-13 20:56:31 [Information] Method Hentai returned: LoggingAuto.Models.Item
+2023-08-13 20:59:30 [Information] ------Action Home.Index4-------------
+2023-08-13 20:59:30 [Information] NoIOLogging: Yes
+2023-08-13 20:59:30 [Information] Do action 4
+2023-08-13 20:59:30 [Information] Calling method: Hentai with arguments: {"Id":-3,"Name":"giang","Description":""}, 5
+2023-08-13 20:59:30 [Information] int a =5
+2023-08-13 20:59:30 [Information] Method Hentai returned: {"Id":2,"Name":"giang","Description":""}
+2023-08-13 21:04:33 [Information] ------Action Home.Index4-------------
+2023-08-13 21:04:33 [Information] NoIOLogging: Yes
+2023-08-13 21:04:33 [Information] Do action 4
+2023-08-13 21:04:33 [Information] int a =5
+2023-08-13 21:04:33 [Information] Method Hentai returned: {"Id":2,"Name":"giang","Description":""}
+2023-08-13 21:05:37 [Information] ------Action Home.Index4-------------
+2023-08-13 21:05:37 [Information] NoIOLogging: Yes
+2023-08-13 21:05:37 [Information] Do action 4
+2023-08-13 21:05:37 [Information] Method: Hentai
+2023-08-13 21:05:37 [Information] Arguments: ["{ Name = input, Value = {\"Id\":-3,\"Name\":\"giang\",\"Description\":\"\"} }", "{ Name = a, Value = 5 }"]
+2023-08-13 21:05:37 [Information] int a =5
+2023-08-13 21:05:37 [Information] Method Hentai returned: {"Id":2,"Name":"giang","Description":""}
+2023-08-13 21:11:37 [Information] ------Action Home.Index4-------------
+2023-08-13 21:11:37 [Information] NoIOLogging: Yes
+2023-08-13 21:11:37 [Information] Do action 4
+2023-08-13 21:11:37 [Information] Calling method: Hentai
+2023-08-13 21:11:37 [Information] Arguments:input={"Id":-3,"Name":"giang","Description":""} a=5 
+2023-08-13 21:11:37 [Information] int a =5
+2023-08-13 21:11:37 [Information] Method Hentai returned: {"Id":2,"Name":"giang","Description":""}
+2023-08-13 21:11:51 [Information] ------Action Home.Index4-------------
+2023-08-13 21:11:51 [Information] NoIOLogging: Yes
+2023-08-13 21:11:51 [Information] Do action 4
+2023-08-13 21:11:51 [Information] Calling method: Hentai
+2023-08-13 21:11:51 [Information] Arguments:input={"Id":-3,"Name":"giang","Description":""}, a=5, 
+2023-08-13 21:11:51 [Information] int a =5
+2023-08-13 21:11:51 [Information] Method Hentai returned: {"Id":2,"Name":"giang","Description":""}
+2023-08-13 21:13:02 [Information] ------Action Home.Index4-------------
+2023-08-13 21:13:02 [Information] NoIOLogging: Yes
+2023-08-13 21:13:03 [Information] Do action 4
+2023-08-13 21:13:03 [Information] Calling method: Hentai
+2023-08-13 21:13:03 [Information] Arguments:input={"Id":-3,"Name":"giang","Description":""}, a=5, 
+2023-08-13 21:13:03 [Information] int a =5
+2023-08-13 21:13:03 [Information] Method Hentai returned: ({"Id":2,"Name":"giang","Description":""}, 5)

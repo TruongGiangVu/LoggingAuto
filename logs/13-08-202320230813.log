@@ -1,0 +1,6 @@
+2023-08-13 13:35:04 [Information] ------Action Home.Index-------------
+2023-08-13 13:35:04 [Information] NoIOLogging: No
+2023-08-13 13:35:04 [Information] Request: GET /Home/index?id=1&name=Giang%20sieu%20nhan
+2023-08-13 13:35:04 [Information] Do action
+2023-08-13 13:35:04 [Information] Response Status: 200
+2023-08-13 13:35:04 [Information] Response Body: {"id":1,"name":"Giang sieu nhan","description":"Description Giang sieu nhan"}
