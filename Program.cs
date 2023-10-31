@@ -1,4 +1,7 @@
+using System.Globalization;
 using Castle.DynamicProxy;
+using EasyCaching.SQLite;
+using LoggingAuto.Extensions;
 using LoggingAuto.HttpClients;
 using LoggingAuto.Interceptors;
 using LoggingAuto.Middlewares;
@@ -7,6 +10,8 @@ using Microsoft.Extensions.DependencyInjection.Extensions;
 using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.InitISO8601CultureInfo();
 
 Log.Logger = new LoggerConfiguration()
     .Enrich.FromLogContext()
@@ -24,6 +29,15 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddEasyCaching(options =>
+{
+    options.UseInMemory("DefaultInMemory");
+    options.UseSQLite(config =>
+    {
+        config.DBConfig = new SQLiteDBOptions { FileName = "my.db" };
+    });
+});
 
 // builder.Services.AddHttpClient<CustomHttpClient>("GitHubClient.Version9", x => { x.BaseAddress = new Uri(GitHubConstants.ApiBaseUrl); });
 builder.Services.AddHttpClient<CustomHttpClient>(x => { x.BaseAddress = new Uri("Path"); x.Timeout = TimeSpan.FromSeconds(90); });

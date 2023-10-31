@@ -1,6 +1,7 @@
 using Castle.DynamicProxy;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 
+namespace LoggingAuto.Interceptors;
 public static class InterceptionExtensions
 {
     /// <summary>

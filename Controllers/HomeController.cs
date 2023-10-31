@@ -14,6 +14,14 @@ public class HomeController : ControllerBase
     {
         this._userService = userService;
     }
+    [HttpGet("test")]
+    public IActionResult Test(DateTime input)
+    {
+        _log.Information("Do action ");
+
+        string a = DateTime.Now.ToString();
+        return Ok(input.ToString()+ " "+ a);
+    }
     [HttpGet("index")]
     public IActionResult Index(int id, string name)
     {
