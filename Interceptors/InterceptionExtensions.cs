@@ -161,7 +161,7 @@ public static class InterceptionExtensions
     //         lifetime
     //     ));
     // }
-    public static void AddInterceptedService<TInterface, TImplementation>(
+    public static void AddRangeInterceptedService<TInterface, TImplementation>(
         this IServiceCollection services,
         List<Type> interceptorTypes,
         ServiceLifetime lifetime = ServiceLifetime.Singleton)
@@ -170,10 +170,9 @@ public static class InterceptionExtensions
     {
         // Try Register the interceptor and ProxyGenerator if they haven't registered
         services.TryAddSingleton<IProxyGenerator, ProxyGenerator>();
-        foreach(var type in interceptorTypes){
+        foreach (Type type in interceptorTypes)
             services.TryAddSingleton(type);
-        }
-           
+
         services.Add(new ServiceDescriptor(
             typeof(TInterface),
             provider =>
@@ -188,6 +187,27 @@ public static class InterceptionExtensions
             },
             lifetime
         ));
+    }
+    public static void AddRangeInterceptedSingleton<TInterface, TImplementation>(
+        this IServiceCollection services, List<Type> interceptorTypes)
+        where TInterface : class
+        where TImplementation : class, TInterface
+    {
+        services.AddRangeInterceptedService<TInterface, TImplementation>(interceptorTypes, ServiceLifetime.Singleton);
+    }
+    public static void AddRangeInterceptedTransient<TInterface, TImplementation>(
+        this IServiceCollection services, List<Type> interceptorTypes)
+        where TInterface : class
+        where TImplementation : class, TInterface
+    {
+        services.AddRangeInterceptedService<TInterface, TImplementation>(interceptorTypes, ServiceLifetime.Transient);
+    }
+    public static void AddRangeInterceptedScoped<TInterface, TImplementation>(
+        this IServiceCollection services, List<Type> interceptorTypes)
+        where TInterface : class
+        where TImplementation : class, TInterface
+    {
+        services.AddRangeInterceptedService<TInterface, TImplementation>(interceptorTypes, ServiceLifetime.Scoped);
     }
     // services.AddInterceptedService<IMyService, MyService>(new List<Type> { typeof(LoggingInterceptor), typeof(OtherInterceptor) });
 
