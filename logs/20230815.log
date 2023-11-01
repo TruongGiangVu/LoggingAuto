@@ -1,0 +1,120 @@
+2023-08-15 21:11:58 [Information] ------Action Home.Test-------------
+2023-08-15 21:11:58 [Information] NoIOLogging: No
+2023-08-15 21:11:58 [Information] Request: GET /Home/test
+2023-08-15 21:11:58 [Information] Do action
+2023-08-15 21:11:58 [Information] Response Status: 200
+2023-08-15 21:11:58 [Information] Response Body: 08/15/2023 09:11:58 PM
+2023-08-15 21:12:41 [Information] ------Action Home.Test-------------
+2023-08-15 21:12:41 [Information] NoIOLogging: No
+2023-08-15 21:12:41 [Information] Request: GET /Home/test
+2023-08-15 21:12:41 [Information] Do action
+2023-08-15 21:12:41 [Information] Response Status: 200
+2023-08-15 21:12:41 [Information] Response Body: 08/15/2023 09:12:41 PM
+2023-08-15 21:13:25 [Information] ------Action Home.Test-------------
+2023-08-15 21:13:25 [Information] NoIOLogging: No
+2023-08-15 21:13:25 [Information] Request: GET /Home/test
+2023-08-15 21:13:25 [Information] Do action
+2023-08-15 21:13:25 [Information] Response Status: 200
+2023-08-15 21:13:25 [Information] Response Body: 2023-08-15 21:13:25
+2023-08-15 21:13:52 [Information] ------Action Home.Test-------------
+2023-08-15 21:13:52 [Information] NoIOLogging: No
+2023-08-15 21:13:52 [Information] Request: GET /Home/test
+2023-08-15 21:13:52 [Information] Do action
+2023-08-15 21:13:52 [Information] Response Status: 200
+2023-08-15 21:13:52 [Information] Response Body: 20230815 21:13:52
+2023-08-15 21:14:11 [Information] ------Action Home.Test-------------
+2023-08-15 21:14:11 [Information] NoIOLogging: No
+2023-08-15 21:14:11 [Information] Request: GET /Home/test
+2023-08-15 21:14:11 [Information] Do action
+2023-08-15 21:14:11 [Information] Response Status: 200
+2023-08-15 21:14:11 [Information] Response Body: 20230815 21:14:11
+2023-08-15 21:14:22 [Information] ------Action Home.Test-------------
+2023-08-15 21:14:22 [Information] NoIOLogging: No
+2023-08-15 21:14:22 [Information] Request: GET /Home/test
+2023-08-15 21:14:22 [Information] Do action
+2023-08-15 21:14:22 [Information] Response Status: 200
+2023-08-15 21:14:22 [Information] Response Body: 2023-08-15 21<>14<>22
+2023-08-15 21:17:30 [Information] ------Action Home.Test-------------
+2023-08-15 21:17:30 [Information] NoIOLogging: No
+2023-08-15 21:17:30 [Information] Request: POST /Home/test?input=08%2F15%2F2023%2010%3A10%3A10%20AM
+2023-08-15 21:17:30 [Information] Request Body: "2023-08-15T14:17:05.778Z"
+2023-08-15 21:17:30 [Information] Response Status: 400
+2023-08-15 21:17:30 [Information] Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-fa79c35fddf09a068248a5863106f0d3-ed6f00c724e794b1-00","errors":{"$":["The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. Path: $ | LineNumber: 0 | BytePositionInLine: 0."]}
+2023-08-15 21:18:23 [Information] ------Action Home.Test-------------
+2023-08-15 21:18:23 [Information] NoIOLogging: No
+2023-08-15 21:18:23 [Information] Request: POST /Home/test?input=08%2F15%2F2023%2010%3A10%3A10%20AM
+2023-08-15 21:18:23 [Information] Request Body: "2023-08-15T14:18:20.460Z"
+2023-08-15 21:18:23 [Information] Response Status: 400
+2023-08-15 21:18:23 [Information] Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-9281641c0824007c3ee9af35f8f69a46-f2968b4a5ab2e538-00","errors":{"$":["The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. Path: $ | LineNumber: 0 | BytePositionInLine: 0."]}
+2023-08-15 21:19:01 [Information] ------Action Home.Test-------------
+2023-08-15 21:19:01 [Information] NoIOLogging: No
+2023-08-15 21:19:01 [Information] Request: GET /Home/test?input=08%2F15%2F2023%2010%3A10%3A10%20AM
+2023-08-15 21:19:01 [Information] Do action
+2023-08-15 21:19:01 [Information] Response Status: 200
+2023-08-15 21:19:01 [Information] Response Body: 2023-08-15 21:19:01
+2023-08-15 21:19:39 [Information] ------Action Home.Test-------------
+2023-08-15 21:19:39 [Information] NoIOLogging: No
+2023-08-15 21:19:39 [Information] Request: GET /Home/test?input=2023-08-15%2010%3A11%3A12
+2023-08-15 21:19:39 [Information] Do action
+2023-08-15 21:19:39 [Information] Response Status: 200
+2023-08-15 21:19:39 [Information] Response Body: 2023-08-15 21:19:39
+2023-08-15 21:19:53 [Information] ------Action Home.Test-------------
+2023-08-15 21:19:53 [Information] NoIOLogging: No
+2023-08-15 21:19:53 [Information] Request: GET /Home/test?input=2023-08-15%2023%3A11%3A12
+2023-08-15 21:19:53 [Information] Do action
+2023-08-15 21:19:53 [Information] Response Status: 200
+2023-08-15 21:19:53 [Information] Response Body: 2023-08-15 21:19:53
+2023-08-15 21:20:29 [Information] ------Action Home.Test-------------
+2023-08-15 21:20:29 [Information] NoIOLogging: No
+2023-08-15 21:20:29 [Information] Request: GET /Home/test
+2023-08-15 21:20:29 [Information] Do action 
+2023-08-15 21:20:29 [Information] Response Status: 200
+2023-08-15 21:20:29 [Information] Response Body: 0001-01-01 00:00:00 2023-08-15 21:20:29
+2023-08-15 21:20:39 [Information] ------Action Home.Test-------------
+2023-08-15 21:20:39 [Information] NoIOLogging: No
+2023-08-15 21:20:39 [Information] Request: GET /Home/test?input=2023-08-15%2021%3A20%3A29
+2023-08-15 21:20:39 [Information] Do action 
+2023-08-15 21:20:39 [Information] Response Status: 200
+2023-08-15 21:20:39 [Information] Response Body: 2023-08-15 21:20:29 2023-08-15 21:20:39
+2023-08-15 21:21:03 [Information] ------Action Home.Test-------------
+2023-08-15 21:21:03 [Information] NoIOLogging: No
+2023-08-15 21:21:03 [Information] Request: GET /Home/test?input=08%2F15%2F2023%2015%3A12%3A14
+2023-08-15 21:21:03 [Information] Do action 
+2023-08-15 21:21:03 [Information] Response Status: 200
+2023-08-15 21:21:03 [Information] Response Body: 2023-08-15 15:12:14 2023-08-15 21:21:03
+2023-08-15 21:21:10 [Information] ------Action Home.Test-------------
+2023-08-15 21:21:10 [Information] NoIOLogging: No
+2023-08-15 21:21:10 [Information] Request: GET /Home/test?input=08%2F15%2F2023%2011%3A12%3A14
+2023-08-15 21:21:10 [Information] Do action 
+2023-08-15 21:21:10 [Information] Response Status: 200
+2023-08-15 21:21:10 [Information] Response Body: 2023-08-15 11:12:14 2023-08-15 21:21:10
+2023-08-15 21:21:15 [Information] ------Action Home.Test-------------
+2023-08-15 21:21:15 [Information] NoIOLogging: No
+2023-08-15 21:21:15 [Information] Request: GET /Home/test?input=08%2F15%2F2023%2011%3A12%3A14%20PM
+2023-08-15 21:21:15 [Information] Do action 
+2023-08-15 21:21:15 [Information] Response Status: 200
+2023-08-15 21:21:15 [Information] Response Body: 2023-08-15 23:12:14 2023-08-15 21:21:15
+2023-08-15 21:27:40 [Information] ------Action Home.Test-------------
+2023-08-15 21:27:40 [Information] NoIOLogging: No
+2023-08-15 21:27:40 [Information] Request: GET /Home/test
+2023-08-15 21:27:40 [Information] Do action 
+2023-08-15 21:27:40 [Information] Response Status: 200
+2023-08-15 21:27:40 [Information] Response Body: 01/01/0001 12:00:00 AM 08/15/2023 09:27:40 PM
+2023-08-15 21:27:59 [Information] ------Action Home.Test-------------
+2023-08-15 21:27:59 [Information] NoIOLogging: No
+2023-08-15 21:27:59 [Information] Request: GET /Home/test
+2023-08-15 21:27:59 [Information] Do action 
+2023-08-15 21:27:59 [Information] Response Status: 200
+2023-08-15 21:27:59 [Information] Response Body: 0001-01-01 00:00:00 2023-08-15 21:27:59
+2023-08-15 21:35:52 [Information] ------Action Home.Test-------------
+2023-08-15 21:35:53 [Information] NoIOLogging: No
+2023-08-15 21:35:53 [Information] Request: GET /Home/test
+2023-08-15 21:35:53 [Information] Do action 
+2023-08-15 21:35:53 [Information] Response Status: 200
+2023-08-15 21:35:53 [Information] Response Body: 0001-01-01 00:00:00 2023-08-15 21:35:53
+2023-08-15 21:36:01 [Information] ------Action Home.Test-------------
+2023-08-15 21:36:01 [Information] NoIOLogging: No
+2023-08-15 21:36:01 [Information] Request: GET /Home/test?input=2023-08-15%2021%3A35%3A53
+2023-08-15 21:36:01 [Information] Do action 
+2023-08-15 21:36:01 [Information] Response Status: 200
+2023-08-15 21:36:01 [Information] Response Body: 2023-08-15 21:35:53 2023-08-15 21:36:01

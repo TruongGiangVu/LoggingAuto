@@ -139,4 +139,56 @@ public static class InterceptionExtensions
     //         return proxyGenerator.CreateInterfaceProxyWithTarget<TInterface>(impl, interceptor);
     //     });
     // }
+    // public static void AddInterceptedService<TInterface, TImplementation>(
+    //     this IServiceCollection services,
+    //     List<Type> interceptorTypes,
+    //     ServiceLifetime lifetime = ServiceLifetime.Singleton)
+    //     where TInterface : class
+    //     where TImplementation : class, TInterface
+    // {
+    //     var proxyGenerator = new ProxyGenerator();
+
+    //     services.Add(new ServiceDescriptor(
+    //         typeof(TInterface),
+    //         serviceProvider =>
+    //         {
+    //             var target = ActivatorUtilities.CreateInstance<TImplementation>(serviceProvider);
+    //             var interceptors = interceptorTypes.Select(type => (IInterceptor)ActivatorUtilities.CreateInstance(serviceProvider, type)).ToArray();
+    //             var interceptorChain = new InterceptorChain(interceptors);
+
+    //             return proxyGenerator.CreateInterfaceProxyWithTarget(target, interceptorChain);
+    //         },
+    //         lifetime
+    //     ));
+    // }
+    public static void AddInterceptedService<TInterface, TImplementation>(
+        this IServiceCollection services,
+        List<Type> interceptorTypes,
+        ServiceLifetime lifetime = ServiceLifetime.Singleton)
+        where TInterface : class
+        where TImplementation : class, TInterface
+    {
+        // Try Register the interceptor and ProxyGenerator if they haven't registered
+        services.TryAddSingleton<IProxyGenerator, ProxyGenerator>();
+        foreach(var type in interceptorTypes){
+            services.TryAddSingleton(type);
+        }
+           
+        services.Add(new ServiceDescriptor(
+            typeof(TInterface),
+            provider =>
+            {
+                // var target = ActivatorUtilities.CreateInstance<TImplementation>(serviceProvider);
+                // var interceptors = interceptorTypes.Select(type => (IInterceptor)ActivatorUtilities.CreateInstance(provider, type)).ToArray();
+                var implementation = provider.GetRequiredService<TImplementation>();
+                var interceptors = interceptorTypes.Select(type => (IInterceptor)provider.GetRequiredService(type)).ToArray();
+
+                var proxyGenerator = new ProxyGenerator();
+                return proxyGenerator.CreateInterfaceProxyWithTarget(implementation, interceptors);
+            },
+            lifetime
+        ));
+    }
+    // services.AddInterceptedService<IMyService, MyService>(new List<Type> { typeof(LoggingInterceptor), typeof(OtherInterceptor) });
+
 }

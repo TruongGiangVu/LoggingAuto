@@ -1,3 +1,4 @@
+using System.Net.Http.Headers;
 using System.Text.Json;
 
 namespace LoggingAuto.HttpClients;
@@ -22,5 +23,8 @@ public class CustomHttpClient
     {
         method ??= HttpMethod.Get;
         return new HttpRequestMessage(method, "path");
+    }
+    public void SetHttpClient(string token){
+        _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
     }
 }
