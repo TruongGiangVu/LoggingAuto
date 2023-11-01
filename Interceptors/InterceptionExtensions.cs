@@ -182,7 +182,7 @@ public static class InterceptionExtensions
                 var implementation = provider.GetRequiredService<TImplementation>();
                 var interceptors = interceptorTypes.Select(type => (IInterceptor)provider.GetRequiredService(type)).ToArray();
 
-                var proxyGenerator = new ProxyGenerator();
+                var proxyGenerator = provider.GetRequiredService<IProxyGenerator>();
                 return proxyGenerator.CreateInterfaceProxyWithTarget(implementation, interceptors);
             },
             lifetime
