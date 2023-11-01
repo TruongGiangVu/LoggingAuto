@@ -179,6 +179,7 @@ public static class InterceptionExtensions
             {
                 // var target = ActivatorUtilities.CreateInstance<TImplementation>(serviceProvider);
                 // var interceptors = interceptorTypes.Select(type => (IInterceptor)ActivatorUtilities.CreateInstance(provider, type)).ToArray();
+                // var proxyGenerator = new ProxyGenerator();
                 var implementation = provider.GetRequiredService<TImplementation>();
                 var interceptors = interceptorTypes.Select(type => (IInterceptor)provider.GetRequiredService(type)).ToArray();
 
